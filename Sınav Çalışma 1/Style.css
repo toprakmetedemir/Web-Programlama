@@ -1,0 +1,73 @@
+body{
+    background-color: bisque;
+}
+.fruit-image
+{
+    width: 13vh;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+#banana{
+    width: 8vh;
+    height: auto;
+    margin-left: 17px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+.pre1{
+    width: 70vw;
+    height: auto;
+    margin-left: 5vw;
+    color: black; /* Yazı rengi */
+    background-color: #F0E68C; /* Arka plan rengi */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Yazı gölgesi */
+    font-size: 20px; /* Yazı boyutu */
+    padding: 10px; /* İç boşluk */
+    border-radius: 25px; /* Kenar yuvarlama */
+}
+.box {
+    border: 2px solid #4CAF50; /* Kutu kenarlığı */
+    padding: 20px; /* İç boşluk */
+    margin: 20px; /* Dış boşluk */
+    border-radius: 10px; /* Kenar yuvarlama */
+    background-color: #f9f9f9; /* Arka plan rengi */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Gölgelendirme efekti */
+}
+.h1{
+    color: purple;
+    font-size: 20px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+#p1{
+    text-align: center;
+}
+video {
+    width: 80%; /* Video genişliği */
+    max-width: 600px; /* Maksimum genişlik */
+    margin-left: 5vw;
+    border: 2px solid #4CAF50; /* Kenarlık */
+    border-radius: 15px; /* Kenar yuvarlama */
+}
+table{
+    height: auto;
+    width: 30%; /* Tablonun genişliği */
+    margin-left: 25vw;
+}
+th,td{
+    border: 1px solid purple;
+    padding: 5px;
+    text-align: left;
+}
+th {
+    background-color:darkslategray; /* Başlık arka plan rengi */
+    color: white; /* Başlık yazı rengi */
+}
+tr:nth-child(even) {
+    background-color:chocolate; /* Çift satır arka plan rengi */
+    color:white;
+}
+tr:hover {
+    background-color:gold; /* Üzerine gelindiğinde satır arka plan rengi */
+}

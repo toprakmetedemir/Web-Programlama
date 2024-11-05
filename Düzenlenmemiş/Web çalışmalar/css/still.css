@@ -1,0 +1,29 @@
+body{
+    background-color: #ffcc93;
+    background-image: url("peakpx\ \(1\).jpg");
+    background-repeat: no-repeat;
+    /*repeat x yatayda y dikeyde tekrarlama*/
+    background-size: cover;
+}
+#kutu1{width: 99vw; height: 6vh;
+background-color: #ffa79c;
+}
+#kutu2{width: 99vw; height: 6vh;
+    background-image:linear-gradient(#ffa7ff,#fff91d
+    );
+}
+#kutu3{width: 99vw; height: 6vh;
+    background-color:rgba(255, 0, 0,0.5)
+}
+#kutu4{width: 30wh;height: 50vh;
+background: url(peakpx\ \(4\).jpg) left top 
+no-repeat , url(peakpx\ \(3\).jpg) right bottom no-repeat green;
+}
+#kutu5{
+    font-family: "Bebas Neue";
+    font-size: large;
+    font-style: italic;
+    color: #ffa7ff;
+}
+
+    

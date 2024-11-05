@@ -1,0 +1,40 @@
+body{background-color: wheat;}
+a{text-decoration: dashed;color: black;
+font-size: 1vw;border: 2px solid black;
+width:7vw;display: inline-block;
+text-align: center;
+}
+a:hover{background-color: aqua;}
+.k1 img{
+width: 25vw;border: 2px solid color blue;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.k1{border: 2px dashed black;
+width: 25vw;text-align: center;
+font-size: larger;
+padding: 10px;
+margin: 15px;
+}
+.kapsa{
+    display: flex;
+    flex-wrap: wrap;
+}
+.k2 img{
+    width: 20vw;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.k2{border: 2px solid black;
+    padding: 4px;
+     width: 20vw;
+background-position: center;
+margin: 10px;
+}
+.kapsa1{
+    display: flex;
+    flex-wrap: wrap;
+}
+

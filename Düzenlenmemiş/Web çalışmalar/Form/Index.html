@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="Giriş" action="giris.html" method="get">
+        <fieldset>
+            <legend>Üye Bilgiler</legend>
+        <label>Ad:</label><br>
+        <input type="text" placeholder="Adınızı giriniz."/><br>
+        <label>Soyad:</label> <br>
+        <input type="text" placeholder="Soyadınızı giriniz"/><br>
+        <label>Telefon Numarası</label><br>
+        <input type="number" placeholder="555 555 05 05"/><br> 
+        <label>E-Mail:</label><br>
+        <input type="text" placeholder="yarakürek@gmail.com"/><br>
+        <label>Cinsiyet</label> <br>
+        <input type="radio" name="cins"/>Erkek
+        <input type="radio" name="cins"/>Kadın<br>  
+        <input type="submit" value="Gönder"/>
+        <label>Doğum Tarihi</label>
+        <input type="Date"><br>
+        <label>Doğum saati</label>
+        <input type="time"/><br>
+        <label>Doğum yeri</label>
+        <select name="İller" size="1">
+            <option value="34">İstanbul</option>
+            <option value="35">İzmir</option>
+            <option value="36">Kars</option>
+            <option value="37">Kastamonu</option>
+        </select>
+        </fieldset><br>
+        <fieldset>
+            <legend>İlgi Alanlarınız</legend>
+            <label>Hobileriniz</label><br>
+            <input type="checkbox" name="k1">Basketbol <br>
+            <input type="checkbox" name="k2">Futbol<br>
+            <input type="checkbox" name="k3">Tiyatro<br>
+            <input type="checkbox" name="k4">Kitap Okumak<br>
+            <input type="checkbox" name="k5">Doğa Yürüyüşü<br>
+            <input type="checkbox" name="k6">Yüzme<br>
+            <input type="checkbox" name="k7">Diğer<br>
+            <label>Sevdiğiniz Renk</label><br>
+            <input type="color" name="Renk"><br>
+            <label>Gezmek istediğiniz yerler</label><br>
+            <select name="İller" multiple>
+                <option value="34">İstanbul</option>
+                <option value="35">İzmir</option>
+                <option value="36">Kars</option>
+                <option value="37">Kastamonu</option>  
+            </select>
+            <label>Kendinizi Tanıtın</label><br>
+            <textarea rows="5" cols="20"></textarea>
+        </fieldset><br>
+        <fieldset>
+            <legend>Üye Giriş</legend>
+        <label>Kullanıcı Adı:</label><br>
+         <input type="text" placeholder="Kullanıcı Adı"><br>
+        <label>Şifre:</label><br> 
+        <input type="password" placeholder="A*bc?e."><br>
+        <input type="submit" value="Giriş">
+    </fieldset>
+</form>
+    
+</body>
+</html>

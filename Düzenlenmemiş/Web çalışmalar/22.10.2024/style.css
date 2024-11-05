@@ -1,0 +1,11 @@
+
+.box{background-color: aquamarine;
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
+    grid-template-rows: 10vh 20vh 10vw;
+    gap: 1vw;
+    padding: 10px;
+}
+.box div{
+    background-color: gray;
+}
